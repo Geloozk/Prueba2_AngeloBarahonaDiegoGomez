@@ -78,6 +78,7 @@ informacion.onclick = () => {
     <li>Crédito con Garantía Estatal.</li>
     </ul>
     <h2>El Gobierno de chile trabaja la gratuidad en base al valor de UF</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Mineduc.svg/1200px-Mineduc.svg.png" alt="Logo">
     </div>
 ` 
 }
@@ -106,6 +107,8 @@ contacto.onclick = () => {
             <input id="correo" type="text" placeholder="Correo Electrónico" style="color: black ; height: 4vh;"/>
             <textarea id="correo" type="textarea" placeholder="Ingrese el Mensaje" style="color: black; width: 60%; height: 20vh;"/></textarea>
             <input id="button" type="submit" value="Contactarse" style="color: black; height: 4vh;" /></form>
+            <img src="https://image.flaticon.com/icons/png/512/44/44325.png" alt="Logo">
+
             </div>
         </div>
         </center>
