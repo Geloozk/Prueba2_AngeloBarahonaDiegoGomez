@@ -1,16 +1,21 @@
 const login = document.getElementById('login');
+const usuario = document.getElementById("usuario")
+const correo = document.getElementById("correo")
+const button = document.getElementById("button")
 
+usuario.value = "admin123"
+correo.value = "admin@duoc.cl"
 
 login.onsubmit = (e) => {
 e.preventDefault();
 
-const usuario = document.getElementById("usuario").value
-const correo = document.getElementById("correo").value
-const button = document.getElementById("button")
+
+
+
 
 button.onclick = () => {
 
-    if (usuario === "hola" && correo === "hola@hola.cl"){
+    if (usuario.value === "admin123" && correo.value === "admin@duoc.cl"){
         window.location="home.html"
     }
     else{

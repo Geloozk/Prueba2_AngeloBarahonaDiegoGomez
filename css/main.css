@@ -12,7 +12,6 @@ body{
 
 
 
-
 #menu{
     padding-top: 3vh;
     width: 100%;
@@ -42,8 +41,10 @@ input{
 }
 
 ul{
-    padding: 3vh;
+
+    padding: 1vh;
 }
 li{
+
     padding: 0.8vh;
 }
