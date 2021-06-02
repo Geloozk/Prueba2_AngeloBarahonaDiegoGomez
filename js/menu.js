@@ -24,6 +24,8 @@ putInfo.innerHTML =
 `        <div id="todoInfo" class="wow fadeIn">
 
     <h1>Formulario Único de Acreditación Socioeconómica (FUAS)</h1>
+    <h3>El (FUAS) es creado por el Mineduc para facilitar tu inscripción simultánea a Gratuidad y 
+    a todas las becas y créditos de arancel, de acuerdo al reglamento vigente.</h3>
     <ul>
     <li>Gratuidad.</li>
     <li>Beca Nuevo Milenio.</li>
