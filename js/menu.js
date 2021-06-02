@@ -27,6 +27,7 @@ putInfo.innerHTML =
     <h3>El (FUAS) es creado por el Mineduc para facilitar tu inscripción simultánea a Gratuidad y 
     a todas las becas y créditos de arancel, de acuerdo al reglamento vigente.</h3>
     <ul>
+    <li>LISTADO DE BECAS DISPONIBLES:</li>
     <li>Gratuidad.</li>
     <li>Beca Nuevo Milenio.</li>
     <li>Beca Bicentenario.</li>
