@@ -1,39 +1,23 @@
 *{
     color: white;
     font-family: 'Roboto', sans-serif;
-        user-select: none;
-    text-decoration: none;
     scroll-behavior: smooth;
-}
+            background-color: #3C3836;
 
-body{
-    background-color: #3C3836;
 }
-
 
 form {
     margin-top: 15vh;
     display: block;
     font-size: 2vh;
+
 }
+
+
+
 form h3{
     font-size: 4em;
 }
-
-#menu{
-    padding-top: 3vh;
-    width: 100%;
-    opacity: 0.7;
-    background: linear-gradient(135deg, #272423, #3C3836);
-    padding-bottom: 3vh;
-}
-
-#menu h3{
-    font-size: 2.5vh;
-    display: inline;
-    padding: 3vh;
-}
-
 input::placeholder{
     opacity: 0.3;
     text-align: center;
