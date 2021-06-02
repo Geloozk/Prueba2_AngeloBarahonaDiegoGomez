@@ -57,6 +57,8 @@ informacion.onclick = () => {
     });
     putInfo.innerHTML = `        <div id="todoInfo" class="wow fadeIn">
     <h1>Formulario Único de Acreditación Socioeconómica (FUAS)</h1>
+    <h3>El (FUAS) es creado por el Mineduc para facilitar tu inscripción simultánea a Gratuidad y 
+    a todas las becas y créditos de arancel, de acuerdo al reglamento vigente.</h3>
     <ul>
     <li>Gratuidad.</li>
     <li>Beca Nuevo Milenio.</li>
@@ -118,7 +120,7 @@ button.onclick = () => {
 formulario.onclick = () => {
 
     putInfo.innerHTML = `        <div id="todoInfo" class="wow fadeIn">
-    <h2>Formulario</h2>
+    <h2>Inscripcion Formulario de postulaciones</h2>
     <h2>Nombre</h2>
             <input type="text" placeholder="Nombre" style="color: black; height: 4vh;"/>
 
