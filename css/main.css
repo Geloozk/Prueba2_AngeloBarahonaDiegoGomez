@@ -11,14 +11,7 @@ body{
 }
 
 
-form {
-    margin-top: 15vh;
-    display: block;
-    font-size: 2vh;
-}
-form h3{
-    font-size: 4em;
-}
+
 
 #menu{
     padding-top: 3vh;
@@ -48,3 +41,9 @@ input{
     border-radius: 4px;
 }
 
+ul{
+    padding: 3vh;
+}
+li{
+    padding: 0.8vh;
+}

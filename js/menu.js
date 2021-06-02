@@ -6,6 +6,15 @@ const putInfo = document.getElementById("putInfo")
 const putForm = document.getElementById("formulario")
 const putCont = document.getElementById("contacto")
 
+    $.getJSON('https://mindicador.cl/api', function(data) {
+        var dailyIndicators = data;
+        $("<p/>", {
+            html: 'El valor actual de la UF es $' + dailyIndicators.uf.valor
+        }).appendTo("center");
+    }).fail(function() {
+        console.log('Error al consumir la API!');
+    });
+
 putInfo.innerHTML = `
     <h2>Formulario Único de Acreditación Socioeconómica (FUAS)</h2>
     <ul>
@@ -25,7 +34,7 @@ putInfo.innerHTML = `
     <li>Crédito con Garantía Estatal.</li>
     </ul>
     
-    <h2>El Gobierno de chile trabaja la gratuidad en base al valor de UF:</h2>
+    <h2>El Gobierno de chile trabaja la gratuidad en base al valor de UF</h2>
 
 
 ` 
