@@ -1,0 +1,36 @@
+*{
+    background-color: #3C3836;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+    scroll-behavior: smooth;
+}
+
+
+form {
+    margin-top: 15vh;
+
+    display: block;
+    font-size: 2vh;
+
+}
+
+
+
+form h3{
+    font-size: 4em;
+}
+input::placeholder{
+    opacity: 0.3;
+    text-align: center;
+}
+
+input{
+    display: block;
+    margin: 3vh;
+    font-size: 3vh;
+    width: 35vh;
+    height: 7vw;
+    border-radius: 4px;
+}
+
