@@ -19,6 +19,13 @@ body{
     background: linear-gradient(135deg, #501e72, #367d8a);
     padding-bottom: 3vh;
 }
+img{
+    width: 300px;
+    height: 300px;
+
+
+
+}
 
 #menu h3{
     font-size: 2.5vh;

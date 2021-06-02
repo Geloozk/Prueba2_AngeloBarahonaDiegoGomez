@@ -44,6 +44,7 @@ putInfo.innerHTML =
     <li>Crédito con Garantía Estatal.</li>
     </ul>
     <h2>El Gobierno de chile trabaja la gratuidad en base al valor de UF</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Mineduc.svg/1200px-Mineduc.svg.png" alt="Logo">
     </div>
 ` 
 
